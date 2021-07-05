@@ -1,0 +1,169 @@
+#home a{
+  font-size:20px;
+  
+}
+
+#home ol li{
+	margin:10px 0;
+}
+ .title{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: 100px !important;
+}
+ .title:before{
+  content: '';
+  background: #3f2273;
+  height:5px;
+  width:200px;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+  transform: translateY(63px);
+}
+ .title:after{
+  content: '';
+  background: #3f2273;
+  height:10px;
+  width:50px;
+  margin-bottom: 40px;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+  transform: translateY(4px);
+}
+
+#home section{
+  padding-bottom:30px;
+}
+
+    
+      /*----------technichal resources section ------ */
+  #technichal{
+    padding-top: 20px;
+    padding-bottom:40px;
+  }
+  .language-img{
+    margin-top:-20px;
+    width:130px;
+  }
+  .technichal{
+    padding:10px;
+  }
+  .technichal h5{
+    padding:5px;
+    margin-top:25px;
+    text-transform: uppercase;
+  }
+  .technichal a{
+    color:rebeccapurple;
+    font-size: 25px !important;
+  }
+  
+  #technichal .btn-primary{
+    box-shadow: none;
+    border:none;
+    border-radius: 20px;
+    background-color:#3f2273;
+  }
+  
+  
+            /*    resume building sites section     */
+  
+    #resume{
+      background: #f8f9fa;
+      padding-top:40px;
+      padding-bottom:40px;
+    }
+    #resume ol{
+      color: #0c185f;
+      margin-left:20px;
+    }
+   
+    #resume li a{
+      color: #0c185f;
+      font-weight: 500;
+      font-size: 1.2em;
+    }
+    #resume .fa-id-badge{
+      color:black;
+    }
+
+      /*----------- aptitude section ------*/
+  // in aptitude.scss
+     
+     
+     
+  /*---------  core subjects ------------- */
+
+  #core-subjects>div{
+    align-items: center;
+    width: 90%;
+    margin: 2% auto;
+    
+    .subject{
+      border:1px dotted lightgrey;
+      padding:10px;
+      height:80px;
+      width:350px;
+      margin:2% 4%;
+      font-size: 1rem;
+      border-radius: 15px;
+      background: linear-gradient(45deg, #009688, #4b4088);
+      letter-spacing: 1px;
+      text-align: center;
+      box-shadow: -3px -3px 7px lightcyan, 3px 3px 5px rgba(94, 104, 121, .288);
+
+      span a{
+        color: white;
+      }
+  }
+  .subject:hover{
+      background: #f53d7c;
+      
+      a{
+        color: white;
+      }
+   }
+}
+
+
+/*----- styling of section redirecting to companies page-----*/
+
+#all-companies .wrapper{
+  margin:50px auto;
+  border-radius: 10px;
+  padding-top:50px;
+  padding-bottom: 50px;
+  box-shadow: 0 0 40px 2px rgba(37,73,214,0.18);
+}
+.feature-box{
+  padding: 30px;
+  h1{
+    margin-top: 6%;
+    color: rebeccapurple;
+  }
+  p{
+    margin: 40px auto;
+    color: #555;
+  }
+  a{
+    background-color: #a669ce;
+    border-radius: 20px;
+    padding:10px 20px;
+    margin-right: 30px;
+    border:2px solid #a669ce;
+    color: #fff;
+    margin-left:70px;
+  }
+   a:hover{
+    background: none;
+    color: #a669ce;
+  }
+}
+  
+.feature-img{
+  width: 100%;
+  padding: 10px 40px;
+}
+
+

@@ -1,0 +1,101 @@
+a {
+  text-decoration: none;
+  text-transform: capitalize; }
+
+a:hover {
+  opacity: 0.8; }
+
+.flexClass {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.dev-resources-container {
+  width: 90%;
+  margin: auto; }
+
+.dev-resources-container > div {
+  background-size: cover;
+  word-break: break-all; }
+
+.dev-resources-container > div h4 {
+  color: #15394a;
+  font-size: 1.4rem; }
+
+.dev-resources-container li {
+  font-weight: 600;
+  font-size: 1rem; }
+
+/* -----------side social icons ------------ */
+.side-icons {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  position: fixed;
+  z-index: 100; }
+
+.side-icons ul {
+  padding: initial; }
+
+.side-icons ul li {
+  list-style-type: none;
+  height: 40px;
+  width: 40px;
+  padding-left: 12px;
+  padding-top: 6px;
+  margin-top: 5px;
+  color: white;
+  background: #e0dbe9; }
+
+.side-icons .fb {
+  background-color: #293679; }
+
+.side-icons .ln {
+  background-color: #184554; }
+
+.side-icons .ig {
+  background-color: #e91e63; }
+
+.side-icons .yt {
+  background-color: #ff0000d4; }
+
+.side-icons .gh {
+  background-color: #144216; }
+
+.side-icons ul li:hover {
+  padding-left: 30px;
+  width: 80px; }
+
+/*--------- link for up and down ------*/
+.link {
+  text-align: right;
+  margin-right: 20px; }
+
+.link a {
+  color: darksalmon; }
+
+/*----------Resources common styling -----*/
+a {
+  font-weight: 600; }
+
+.resources li {
+  font-size: 20px;
+  line-height: 30px; }
+
+.hd {
+  text-align: center;
+  font-weight: bold;
+  color: #e91e63;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  font-family: 'Fjalla One', sans-serif; }
+
+.hd::after {
+  content: '';
+  background: #e91e63;
+  display: block;
+  height: 3px;
+  width: 300px;
+  margin: 20px auto 5px; }

@@ -1,0 +1,19 @@
+#ML {
+  margin: 70px 0; }
+  #ML .ml-container div {
+    width: 385px;
+    min-height: 250px;
+    box-shadow: 0 0 10px #607d8b;
+    margin: 20px 50px;
+    border-radius: 15px;
+    padding: 14px 22px;
+    background-image: url("/images/background/bg1.png"); }
+    #ML .ml-container div h4 {
+      margin: 15px auto 18px 5px; }
+    #ML .ml-container div li {
+      color: #4a1b0a;
+      list-style-position: inside;
+      list-style: circle;
+      margin: 4px 0.4rem;
+      width: 90%;
+      word-break: break-all; }

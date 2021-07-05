@@ -1,0 +1,35 @@
+/*------- CP Container  -------*/
+.cp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: auto; }
+
+.cp > div {
+  height: auto;
+  height: 260px;
+  width: 290px;
+  margin: 20px 30px;
+  padding: 30px;
+  color: #00080e;
+  background-color: blanchedalmond;
+  border-radius: 15px;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288); }
+
+.cp > div h4 {
+  text-align: center;
+  color: #ab4165; }
+
+.cp > div ul {
+  margin-top: 20px; }
+
+.cp > div ul li {
+  font-size: 12px !important;
+  list-style: none;
+  margin-left: -15px;
+  margin-right: 10px; }
+
+.cp > div ul li a {
+  color: #00080e;
+  font-size: 18px; }

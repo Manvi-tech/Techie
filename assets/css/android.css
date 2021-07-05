@@ -1,0 +1,22 @@
+#ANDROID {
+  margin: 70px 0; }
+  #ANDROID .android-container div {
+    width: 360px;
+    min-height: 250px;
+    box-shadow: 0 0 5px slategrey;
+    margin: 20px 10px;
+    border-radius: 15px;
+    padding: 15px 22px;
+    background-image: url("/images/background/bg-androidTopics.png"); }
+    #ANDROID .android-container div h4 {
+      margin: -2px auto 18px 5px;
+      padding-top: -30px; }
+    #ANDROID .android-container div li {
+      list-style-position: inside;
+      list-style: circle;
+      margin: 4px 0;
+      width: 90%;
+      word-break: break-all; }
+    #ANDROID .android-container div ol li {
+      list-style: decimal;
+      margin-left: -20px; }

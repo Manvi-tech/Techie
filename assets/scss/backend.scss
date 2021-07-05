@@ -1,0 +1,52 @@
+
+/*----- back end ----- */
+
+#back-end{
+    background-color: #1d0d3a;
+    height:auto;
+    width:100vw;
+
+    h1{
+        color: white;
+        padding-top:25px;
+        
+    }
+    h1::after{
+        background: white;
+    }
+    .backend-container{
+        width: 92%;
+        margin:auto;
+        height: 100%;
+        align-items: center;
+        margin-top: 3%;
+
+        .backend-box{
+            border: 1px solid white;
+            width: 25%;
+            height: 200px;
+            margin:30px 40px;
+            padding: 20px;
+            color: white;
+            opacity: 0.8;
+
+            .backend-info{
+                margin-top: 10%;
+
+                a{
+                    color: whitesmoke !important;
+                    display: block;
+                    text-decoration: none;
+                }
+               
+             }
+          }
+      }
+}
+   
+  
+  @media only screen and (max-width: 750px) { 
+    #back-end .backend-container .backend-box{
+      width: 60%;
+    }
+  }

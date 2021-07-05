@@ -1,0 +1,15 @@
+#women-main {
+  height: auto;
+  margin-bottom: 14%; }
+  #women-main h1 {
+    position: relative;
+    text-align: center;
+    margin-top: 7vh; }
+  #women-main table {
+    margin-top: 7vh; }
+    #women-main table a {
+      text-decoration: none; }
+  #women-main .promo-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 40px; }

@@ -1,0 +1,130 @@
+
+<header>
+
+           <!-- -----header section ---- -->
+  <section id="navbar">
+    <nav class="navbar navbar-expand-lg  navbar-light" style="height: 9vh;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: white;"><img src="/images/logo.png"> TECHIE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/women-programs">WIT</a>
+            </li>
+
+            <li class="nav-item">
+              <% if(locals.user){ %> 
+                <a class="nav-link" href="/user/signout">Sign out</a>
+              <% } else { %> 
+                <a class="nav-link" href="/user/signinPage">Sign In</a>  
+              <% } %> 
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+   
+  </section>
+
+</header>
+
+
+
+
+
+
+    <!-- <header>
+        <nav class="navbar navbar-expand-lg navbar-light custom">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="http://www.msit.in/" style="color: white; font-size:28px;" target="_blank">
+                <img src="/images/msit-img.jpg"><div style="display: inline-block;"><h4 style="text-align: center;font-family: 'Rancho', cursive;">MSIT<br>Placements</h4></div></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                  <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+                </span>
+              </button>
+             
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/" style="color: white;">Home</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="/" style="color: white;">Scholars</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="/women-programs" style="color: white;">Women Programs</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                      Companies
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="/company/amazon">Amazon</a></li>
+                      <li><a class="dropdown-item" href="/company/apple">Apple</a></li>
+                      <li><a class="dropdown-item" href="/company/facebook">Facebook</a></li>
+                      <li><a class="dropdown-item" href="/company/flipkart">Flipkart</a></li>
+                      <li><a class="dropdown-item" href="/company/google">Google</a></li>
+                      <li><a class="dropdown-item" href="/company/netflix">Netflix</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Others</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                      JobType
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="/company/jobs">Jobs</a></li>
+                      <li><a class="dropdown-item" href="/company/internships">Internships</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">On Campus</a></li>
+                    </ul>
+                  </li>
+                
+                  <li class="nav-item">
+                    <a class="nav-link" href="/student/signin" style="color: white;">SignIn</a>
+                  </li>
+                
+                </ul>
+
+              </div>
+            </div>
+          
+          
+          </nav>
+    </header> -->
+    
+
+
+<!-- 
+
+ <header id="layout-header">
+    <nav>
+        <ul>
+            <li>
+               <span id="msit-img"><img src="/images/msit-img.jpg"></span>
+            </li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/company/facebook">Facebook</a></li>
+            <li><a href="/company/amazon">Amazon</a></li>
+            <li><a href="/company/apple">Apple</a></li>
+            <li><a href="/company/google">Google</a></li>
+            <li><a href="/company/flipkart">Flipkart</a></li>
+            <li><a href="/company/others">Other</a></li>
+            <li><a href="#">sign in</a></li>
+        </ul>
+    </nav>
+</header> -->

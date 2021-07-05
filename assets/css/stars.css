@@ -1,0 +1,11 @@
+#stars {
+  margin: 0 20px 0 10px;
+  float: right; }
+  #stars label {
+    transition: all 0.2s ease;
+    color: cadetblue; }
+  #stars input {
+    display: none; }
+  #stars input:checked ~ label {
+    color: #e91e63;
+    text-shadow: 0 0 5px lightpink; }

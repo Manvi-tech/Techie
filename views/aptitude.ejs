@@ -1,0 +1,178 @@
+<body>
+ 
+    <section id="aptitude-preparation">
+        <h1 class="title text-center">Aptitude Preparation <i class="fas fa-calculator"></i></h1>
+         
+    <div class="process-wrapper">
+    <div id="progress-bar-container">
+        <ul>
+            <li class="step step01 active"><div class="step-inner">Quantitative</div></li>
+            <li class="step step02"><div class="step-inner">Logical Reasoning</div></li>
+            <li class="step step03"><div class="step-inner">Coding mcq</div></li>
+            <li class="step step04"><div class="step-inner">Subjects</div></li>
+            <li class="step step05"><div class="step-inner">English</div></li>
+        </ul>
+        
+        <div id="line">
+            <div id="line-progress"></div>
+        </div>
+    </div>
+    
+    <div id="progress-content-section">
+        <div class="section-content discovery active">
+            <h2>Quantitative Aptitude</h2>
+            <div>
+                <ol>
+                    <li>
+                        Topics: 
+                        <ul>
+                            <li>HCF & LCM, Averages, Alligation, Percentages, Ratio & Proportion, 
+                                Profit & Loss, Time & Work, Permutation & Combination, Probability, Time Speed 
+                                Distance, Set Theory, Logarithm </li>
+                        </ul>
+    
+                    </li>
+                    <li>
+                        Tutorials:
+                        <ul>
+                            <li><a href="https://www.youtube.com/playlist?list=PLpyc33gOcbVA4qXMoQ5vmhefTruk5t9lt" target="_blank">Career ride</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Practice: 
+                        <ul>
+                            <li><a href="https://www.codingninjas.com/codestudio/guided-paths/aptitude-preparation?source=youtube&campaign=YoutubeDes_Aptiroadmap%20_7June&utm_source=youtube&utm_medium=organic&utm_campaign=YoutubeDes_Aptiroadmap%20_7June" target="_blank">
+                                Solve Topic wise </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        
+        <div class="section-content strategy">
+            <h2>Logical Reasoning</h2>
+            <div>
+                <ol>
+                    <li>Topics:
+                        <ul>
+                            <li> Alphanumeric series,Seating Arrangement, Blood realtions, Calendars, clocks, Dices, Statement Analysis, Odd one out, Figure Matrix, Mirror & Water Images, Paper folding</li>
+                        </ul>
+                    </li>
+                    <li>Tutorials: 
+                        <ul>
+                            <li><a href="https://www.youtube.com/playlist?list=PLpyc33gOcbVADMKqylI__O_O_RMeHTyNK" target="_blank">Career ride</a></li>
+                        </ul>
+                    </li>
+                    <li>Practice: 
+                        <ul>
+                            <li><a href="https://www.codingninjas.com/codestudio/guided-paths/aptitude-preparation?source=youtube&campaign=YoutubeDes_Aptiroadmap%20_7June&utm_source=youtube&utm_medium=organic&utm_campaign=YoutubeDes_Aptiroadmap%20_7June">Solve Topic wise </a></li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        
+        <div class="section-content creative">
+            <h2>Coding mcq</h2>
+            <div>
+                <ol>
+                    <li>Topics:
+                        <ul>
+                            <li> OOPs concepts, C++ & Java (output based questions, basic concepts)</li>
+                        </ul>
+                    </li>
+                    <li>Tutorials: <a href="#core-subjects"> Check</a></li>
+                    <li>Solve MCQs:
+                    
+                    </li>
+                </ol>
+            </div>
+        </div>
+        
+        <div class="section-content production">
+            <h2>Subjects</h2>
+            <div>
+                <ol>
+                    <li>Topics: 
+                        <ul>
+                            <li>Operating system, Database Management System (DBMS), System Design, Computer Network</li>
+                        </ul>
+                    </li>
+                    <li>Tutorials:<a href="#core-subjects"> Check</a> </li>
+                    <li>Solve MCQs: 
+                        <ul>
+                            <li><a href="https://www.codingninjas.com/codestudio/guided-paths/operating-system-track" target="_blank">
+                                Operating System MCQs with Notes</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        
+        <div class="section-content analysis">
+            <h2>English</h2>
+            <div>
+                <ol>
+                    <li>Topics: 
+                        <ul>
+                            <li>Sentence Completion, Vocabulary, Fill up, Synonyms, Antonyms</li>
+                        </ul>
+                    </li>
+                    
+                    <li>Solve MCQs:
+                        <ul>
+                            <li><a href="https://www.codingninjas.com/codestudio/guided-paths/aptitude-preparation?source=youtube&campaign=YoutubeDes_Aptiroadmap%20_7June&utm_source=youtube&utm_medium=organic&utm_campaign=YoutubeDes_Aptiroadmap%20_7June" target="_blank">
+                                Practice Topic wise </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    </section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    
+    <script>
+        
+        $(".step").click( function() {
+        $(this).addClass("active").prevAll().addClass("active");
+        $(this).nextAll().removeClass("active");
+    });
+    
+    $(".step01").click( function() {
+        $("#line-progress").css("width", "3%");
+        $(".discovery").addClass("active").siblings().removeClass("active");
+    });
+    
+    $(".step02").click( function() {
+        $("#line-progress").css("width", "25%");
+        $(".strategy").addClass("active").siblings().removeClass("active");
+    });
+    
+    $(".step03").click( function() {
+        $("#line-progress").css("width", "50%");
+        $(".creative").addClass("active").siblings().removeClass("active");
+    });
+    
+    $(".step04").click( function() {
+        $("#line-progress").css("width", "75%");
+        $(".production").addClass("active").siblings().removeClass("active");
+    });
+    
+    $(".step05").click( function() {
+        $("#line-progress").css("width", "100%");
+        $(".analysis").addClass("active").siblings().removeClass("active");
+    });
+    
+     
+        
+ </script>
+   
+</body>

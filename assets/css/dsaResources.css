@@ -1,0 +1,23 @@
+/* ------ DSA  container */
+.dsa h1, h4 {
+  text-align: center; }
+
+.dsa-resources {
+  width: 100%;
+  margin-top: 40px; }
+  .dsa-resources div {
+    height: auto;
+    width: 300px;
+    margin: 25px 30px;
+    background: #feffa6;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+    border-radius: 15px; }
+    .dsa-resources div h4 {
+      color: #1f3e3b; }
+    .dsa-resources div ul li {
+      color: #4c4065;
+      font-size: 12px !important;
+      list-style: none; }
+      .dsa-resources div ul li a {
+        color: #4c4065;
+        font-size: 18px; }

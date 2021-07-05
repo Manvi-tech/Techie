@@ -1,0 +1,47 @@
+
+#frontend-roadmap{
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url(/images/background/bg-frontend.png);
+
+    h1{
+        margin-top: 15px;
+        font-size: 2rem;
+        color: black;
+    }
+    h1::after{
+        background: black;
+    }
+    .frontend-container{
+       
+        align-items: center;
+        margin: 15px auto;
+        width: 95%;
+    }
+}
+
+
+.frontend-topic{
+    width: 280px;
+    height:150px;
+    margin:3%;
+    border-radius: 15px 50px;
+    padding: 6px 6px;
+    background-color: #402c65;
+
+    h4{
+        margin-left:15px;
+    }
+    div{
+        height:100%;
+    }
+    div a{
+        display: block;
+        color: black;
+        margin-left:15px;
+    }
+}
+
+
+

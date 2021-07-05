@@ -1,0 +1,101 @@
+#subjects{
+    width: 90%;
+    min-height: 120vh;
+    margin:auto;
+    align-items: center;
+    margin-top: -20px;
+
+    .subject{
+        margin:30px;
+        width: 300px;
+
+        .resources{
+            border: 1px dotted grey;
+            border-radius:15px;
+            width:100%;
+            height: 280px;
+            padding-bottom: 10px;
+            background-color: #ffd5d2;
+            box-shadow: 10px 10px 5px lightgrey;
+
+            .head{
+                background-color: #351d61;
+                color: white;
+                text-align: center;
+                padding:14px;
+                font-size: 1.2rem;
+            }
+
+            /* open close OS content */
+            .show-content {
+                 font-size: 1.2rem;
+                 color: #2e5c67;
+                 text-align: center;
+
+                     /* TOPICS  */
+                .topics{
+                     display: none;
+                     position:absolute;
+                     top:15vh;
+                     left:33%;
+                     background-color: #e9fdff;
+                     width: 39vw;
+                     min-width: 550px;
+                     text-align: start;
+                     transition: 1s;
+                     box-shadow: 10px 5px 5px grey;
+                      margin-bottom:10vh;
+                 }
+                 .topics h2{
+                     font-size: 1.2rem;
+                     padding-top: 10px;
+                 }
+                .topics ol > li{
+                     line-height: 27px;
+                    color: #2f4f5f;
+                    font-size: 0.8rem;
+                }
+
+                .topics .content ul > li{
+                     line-height: 20px;  
+                     font-size: 0.8rem;
+                }
+            }
+
+            .close-content{
+                 float: right;
+                 margin: 10px 30px;
+                 font-size: 1.5rem;
+            }
+        }
+    }
+    .resources > div{
+        border-radius: 15px;
+    }
+    .resources>.sub-links ul{
+        margin-top: 20px;
+
+        li{
+            list-style-type: circle;
+              
+            a{
+                line-height: 14px; 
+                text-decoration: none;
+                color: #2f4f5f;
+                font-size: 0.9rem;
+             }
+        }
+        
+    }
+    
+    
+
+}
+
+
+
+
+
+
+
+

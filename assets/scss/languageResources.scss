@@ -1,0 +1,46 @@
+
+ /*------------language resources section-------  */
+
+ .language-resources{
+    margin:auto auto 50px auto;
+    padding-top: 30px;
+  }
+  
+  .language-resources .language-resources-img-container{
+    padding:70px 10px 10px;
+    background-color: aliceblue;
+    position: relative;
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+    min-width:350px;
+    margin:50px 50px 100px 50px;
+  }
+   .language-resources-img-container img{
+    top: -80px;
+    position: absolute;
+    left:calc(50% - 60px);
+    border:10px solid white;
+  }
+   .language-resources-img-container .language-resource-img{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+  }
+  
+  .language-resources-img-container h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color:darkblue;
+  }
+  .language-resources-img-container h3 span{
+    font-size:12px;
+    color: #333;
+  }
+  .language-resources-img-container ul li{
+    color: #170106;
+    font-size: 12px !important;
+  }
+  .language-resources-img-container ul li a{
+    color:#170106;
+    float: left;
+    font-size: 18px;
+  }
