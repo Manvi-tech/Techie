@@ -127,3 +127,18 @@
   100% {
     transform: translateY(0px);
     opacity: 1; } }
+
+@media screen and (max-width: 600px) {
+  #progress-bar-container #line {
+    top: 70px !important; }
+  #progress-bar-container li:after {
+    width: 20px !important;
+    height: 20px !important;
+    margin-top: 65px !important; }
+  #progress-bar-container li .step-inner {
+    font-size: 12px !important;
+    transform: translateY(10px);
+    word-break: break-word; }
+  #progress-bar-container li:before {
+    width: 20px !important;
+    height: 20px !important; } }

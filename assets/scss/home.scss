@@ -42,12 +42,17 @@
     padding-top: 20px;
     padding-bottom:40px;
   }
+  #technichal .technichal-container{
+    width:85%;
+    margin:auto;
+  }
   .language-img{
-    margin-top:-20px;
-    width:130px;
+    width:100px;
   }
   .technichal{
     padding:10px;
+    width:300px;
+    text-align: center;
   }
   .technichal h5{
     padding:5px;
@@ -167,3 +172,8 @@
 }
 
 
+@media screen and (max-width:600px){
+  .title:after{
+    margin-top: 18px !important;
+  }
+}

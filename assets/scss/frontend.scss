@@ -24,14 +24,14 @@
 
 .frontend-topic{
     width: 280px;
-    height:150px;
+    height:165px;
     margin:3%;
     border-radius: 15px 50px;
     padding: 6px 6px;
     background-color: #402c65;
 
     h4{
-        margin-left:15px;
+        text-align: center;
     }
     div{
         height:100%;
@@ -43,5 +43,7 @@
     }
 }
 
-
+.frontend-topic>div{
+   padding:5px 10px 5px 10px;
+}
 

@@ -20,9 +20,12 @@
         li{
             list-style-position: inside;
             list-style: circle;
-            margin:4px 1.2rem;
-            width:90%;
+            margin:4px 0rem;
+            width:100%;
             word-break: break-all;
+            ol li{
+                margin: 4px -0.8rem;
+            }
         }
     }
 

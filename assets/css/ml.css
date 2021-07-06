@@ -14,6 +14,8 @@
       color: #4a1b0a;
       list-style-position: inside;
       list-style: circle;
-      margin: 4px 0.4rem;
-      width: 90%;
+      margin: 4px 0rem;
+      width: 100%;
       word-break: break-all; }
+      #ML .ml-container div li ol li {
+        margin: 4px -0.8rem; }
